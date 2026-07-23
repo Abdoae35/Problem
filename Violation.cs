@@ -13,5 +13,7 @@ public class Violation
         this.fineAmount = fineAmount;
     }
 
+    
+
   
 }
