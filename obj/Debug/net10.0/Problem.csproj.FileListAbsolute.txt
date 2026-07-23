@@ -1,0 +1,14 @@
+/Users/macbookpro/Desktop/Problem/bin/Debug/net10.0/Problem
+/Users/macbookpro/Desktop/Problem/bin/Debug/net10.0/Problem.deps.json
+/Users/macbookpro/Desktop/Problem/bin/Debug/net10.0/Problem.runtimeconfig.json
+/Users/macbookpro/Desktop/Problem/bin/Debug/net10.0/Problem.dll
+/Users/macbookpro/Desktop/Problem/bin/Debug/net10.0/Problem.pdb
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.AssemblyInfo.cs
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.dll
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/refint/Problem.dll
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.pdb
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/Problem.genruntimeconfig.cache
+/Users/macbookpro/Desktop/Problem/obj/Debug/net10.0/ref/Problem.dll
