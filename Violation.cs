@@ -1,16 +1,17 @@
-
-class Violation
+namespace VehicleRadar;
+public class Violation
 {
-    public string RuleName { get; set; }
-    public string Description { get; set; }
-    public int PenaltyPoints { get; set; }
-    public decimal FineAmount { get; set; }
+   
 
-    public Violation(string ruleName, string description, int penaltyPoints, decimal fineAmount)
+    public string? description { get; set; }
+    public double fineAmount { get; set; }
+
+    public Violation(string? description, double fineAmount)
     {
-        RuleName = ruleName;
-        Description = description;
-        PenaltyPoints = penaltyPoints;
-        FineAmount = fineAmount;
+       
+        this.description = description;
+        this.fineAmount = fineAmount;
     }
+
+  
 }

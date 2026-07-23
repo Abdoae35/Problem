@@ -1,4 +1,9 @@
-class Fine
+public class Fine
 {
      public string? plateNumber { get; set; }
 }
+
+
+
+
+
