@@ -2,8 +2,10 @@ namespace VehicleRadar;
 
 public class Vehicle
 {
+    
 
   
+
     public Vehicle(string? plateNumber, DateTime? date, VehicleType? vehicleType, double speed, bool seatBelt)
     {
         this.plateNumber = plateNumber;

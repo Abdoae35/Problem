@@ -16,15 +16,25 @@ public class Fine
           violations.Add(violation);
      }
 
-    public  void printFine()
+    public void printFine()
     {
-        Console.WriteLine($"Plate Number: {plateNumber}");
+        Console.WriteLine($"Traffic for car: {plateNumber}");
         Console.WriteLine($"Total Fine Amount: {totalFineAmount}");
         Console.WriteLine($"Violations: {violations.Count}");
         foreach (var violation in violations)
         {
-            Console.WriteLine($"- {violation.description} (Fine: {violation.fineAmount})");
+            Console.WriteLine($"- {violation.description} : {violation.fineAmount} EGP");
         }
+    }
+
+    public void getAllFines()
+
+    {
+        Console.WriteLine();
+        Console.WriteLine($"Get all fines for car: {plateNumber}");
+        Console.WriteLine($"Plate Number: {plateNumber}");
+        Console.WriteLine($"Total Fine Amount: {totalFineAmount}");
+        
     }
 
 
