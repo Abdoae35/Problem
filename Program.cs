@@ -7,12 +7,12 @@ public class Program
        
         var radar = new Radar();
 
-        //Data for testing
+        //Dummy Data
         var vehicle1 = new Vehicle("ABC123",DateTime.Now,VehicleType.Private , 200, false);
         var vehicle2 = new Vehicle("XYZ789",DateTime.Now,VehicleType.Truck , 200, true);
 
 
-        //observe vehicles and check for violations
+        //observe vehicles 
         radar.ObserveVehicle(vehicle1);
         radar.ObserveVehicle(vehicle2);
 
