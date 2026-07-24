@@ -18,9 +18,9 @@ public class Fine
 
     public void printFine()
     {
-        Console.WriteLine($"Traffic for car: {plateNumber}");
-        Console.WriteLine($"Total Fine Amount: {totalFineAmount}");
-        Console.WriteLine($"Violations: {violations.Count}");
+        Console.WriteLine($"Traffic for car {plateNumber}");
+        Console.WriteLine($"Total Amount: {totalFineAmount} EGP");
+        Console.WriteLine($"Violations:");
         foreach (var violation in violations)
         {
             Console.WriteLine($"- {violation.description} : {violation.fineAmount} EGP");
@@ -33,7 +33,8 @@ public class Fine
         Console.WriteLine();
         Console.WriteLine($"Get all fines for car: {plateNumber}");
         Console.WriteLine($"Plate Number: {plateNumber}");
-        Console.WriteLine($"Total Fine Amount: {totalFineAmount}");
+        Console.WriteLine($"Total Fine Amount: {totalFineAmount} EGP");
+        Console.WriteLine();
         
     }
 
